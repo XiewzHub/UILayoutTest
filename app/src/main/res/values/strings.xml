@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">材哥的快播</string>
+    <string name="messgage">请输入日期 如2018-04-15</string>
+    <string name="messgage2">结果输出</string>
+    <string name="button">神奇的按钮</string>
+    <string name="button2">选择日期</string>
+</resources>

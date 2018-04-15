@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+    <Button
+        android:text="@string/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_date"
+        android:hint="@string/button2"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/dateStringYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2018"
+            android:hint="输入年份"
+            />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="年"
+            />
+        <EditText
+            android:id="@+id/dateStringMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入月份"
+            />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="月"
+            />
+        <EditText
+            android:id="@+id/dateStringDay"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入日"
+            />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="日"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/button"/>
+
+    <EditText
+        android:id="@+id/dateString2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/messgage2"
+        />
+
+    <!--<Button
+        android:id="@+id/button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Button 2"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Button 3"/>-->
+
+</LinearLayout>
